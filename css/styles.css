@@ -151,12 +151,76 @@ p {
 
 @media (max-width: 1028px) {
 
+  /* Heading section */
+  .big-heading {
+    font-size: 2.7rem;
+  }
+
+  /* Title section */
+  #title .container-fluid {
+    padding: 3% 5% 15%;
+  }
+
   #title {
     text-align: center;
   }
 
+  .download-button {
+    margin: 5% 2% 5% 0;
+  }
+
+  /* Price section */
+  .price-text {
+    font-size: 2.5rem;
+  }
+
+@media (max-width: 768px) {
+  /* Title section */
+  #title .container-fluid {
+    text-align: center;
+  }
+
   .title-image {
-    position: static;
-    transform: none;
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Heading section */
+  .big-heading {
+    font-size: 2.1rem;
+  }
+
+  /* Containder */
+  .container-fluid {
+    padding: 15% 5%;
+  }
+
+  .section-heading {
+    font-size: 2.5rem;
+  }
+
+  /* Title section */
+  #title .container-fluid {
+    text-align: center;
+  }
+
+  .title-image {
+    display: none;
+  }
+
+  /* Testimonial Section */
+  .testimonial-text {
+    font-size: 1.7rem;
+  }
+
+  /* Press section */
+  .press-logo {
+    width: 38%;
+  }
+
+  /* Price section */
+  #pricing {
+    padding: 50px;
   }
 }
